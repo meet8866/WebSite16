@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+  <table>
+    <ul>
+      <tr>
+      <td>
+      <h4> user </h4>
+      </td>
+      <td>
+      <input id = "name" > </input>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <h4> password </h4>
+      </td>
+      <td>
+      <input id = "pwd"> </input>
+      </td>
+      </tr>
+      
+    </ul>
+   
+    </table>
+     <div>
+      <button type = "submit" value =  "submit"  onclick="dologin()"> Submit</button>
+      </div>
+    <a  href="welcome_page.html" hidden="true" id="linkw">
+      <p id = "result"></p>
+
+      <div style="display: none" id="message">
+        <p>
+            What happens in an electoral voting is that the one vote is equivalent to one value.
+            In this project, a process is described how blockchain is used to communicate between two peers and further run the process.
+            Here we consider one of the peer as one candidate and the other as voter.
+            Now our project is based on how can we asure more security for the votes received and make this electoral voting system more secure and accurate.
+             We will explain how this project is more strong, secure and accurate.
+            There are already many blockchain technologies for instance Ethereum, 
+            Multichain etc which can be used in voting machines.
+            And finally in this project we are going to show you how to design, all about the architecture, its advantages, limitations, mechanism and usage in our lifestyle.
+        </p>
+
+      </div>
+    
+  </body>
+  <script>
+  function dologin() {
+    var u = document.getElementById("name").value;
+    var pw = document.getElementById("pwd").value;
+    
+    if ( u == "meet"){
+      if (  pw == "meet8866"){    document.getElementById("result").innerHTML = "login successful";
+      document.getElementById("linkw").click();
+      document.getElementById("message").style.display = "block";
+}
+    }
+    else {    document.getElementById("result").innerHTML = "incorrect id or password"
+}
+    
+
+  }
+    </script>
+</html>

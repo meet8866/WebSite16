@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 
 <html>
- <body>
- <head><b> WELCOME </b></head>
- </body>
+  <body>
+  <table>
+    <ul>
+      <tr>
+      <td>
+      <h4> user </h4>
+      </td>
+      <td>
+      <input id = "name" > </input>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <h4> password </h4>
+      </td>
+      <td>
+      <input id = "pwd"> </input>
+      </td>
+      </tr>
+      
+    </ul>
+   
+    </table>
+     <div>
+      <button type = "submit" value =  "submit"  onclick="dologin()"> Submit</button>
+      </div>
+      <p id = "result"></p>
+
+        
+    
+  </body>
+  <script>
+  function dologin() {
+    var u = document.getElementById("name");
+    var pw = document.getElementById("pwd");
+    document.getElementById("result").innerHTML = "welcome" ;
+    
+  }
+    </script>
 </html>
