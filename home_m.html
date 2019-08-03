@@ -27,6 +27,7 @@
      <div>
       <button type = "submit" value =  "submit"  onclick="dologin()"> Submit</button>
       </div>
+    <a  href="welcome_page.html" hidden="true" id="linkw">
       <p id = "result"></p>
 
       <div style="display: none" id="message">
@@ -51,6 +52,7 @@
     
     if ( u == "meet"){
       if (  pw == "meet8866"){    document.getElementById("result").innerHTML = "login successful";
+      document.getElementById("linkw").click();
       document.getElementById("message").style.display = "block";
 }
     }
