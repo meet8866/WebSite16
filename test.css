@@ -5,11 +5,28 @@ font-family:ABeeZee;
 div {
 
 font-family:ABeeZee;
-color:white;
 
 
 }
 .menuTable{
 text-align:center;
+border-style: dotted;display: grid;padding: 40px;
 
+}
+body{
+    background-color: powderblue;
+}
+
+.img-fixed-size{
+    block-size: 10rem;
+}
+.row{
+    padding:2rem;
+}
+.band{
+    background-color: bisque;
+    display:-webkit-box!important;
+    margin:0.5rem;
+    padding:0.5rem;
+    
 }
