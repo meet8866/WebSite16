@@ -3,7 +3,8 @@
 <head>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/test.css">
+    
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,25 +17,28 @@
 
 
 <body style="background-image: https://upload.wikimedia.org/wikipedia/commons/4/48/Uni_Wien_Feststiege%2C_Vienna.jpg;">
-    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navButtons" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navButtons" class="collapse navbar-collapse">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Guide</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <ul class="navbar-nav ml-auto">
-                    <li>
-                        <a ><h6 class="p-2">About</h6></a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="UniversityC.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
 
-            </div>
+            </ul>
 
         </div>
+
+
+    </nav>
 
 
 
@@ -53,8 +57,8 @@
         </div>
     </div>
 
-    <div class="band">
-        <h3>Featured Universities</h3>
+    <div class="band bg-light">
+        <h3>Featured Universities:</h3>
     </div>
 
     <div class="container-fluid p-4">
@@ -68,13 +72,20 @@
                         </img>
                     </div>
                     <div class="card-body padding">
+
+                        <h4>Vienna University campus </h4>
                         <p>
-                            <h4>Vienna University campus </h4>
+                            The University of Vienna is a public university located in Vienna, Austria. It was founded
+                            by Duke Rudolph IV in 1365 and is the oldest university in the German-speaking world.
                         </p>
+                        <a href="univ-vienna.html"> <button class="btn btn-info btn-xs">More Info</button></a>
+                        <a href="https://en.wikipedia.org/wiki/Cambridge" target="_blank"><button
+                                class="btn btn-success btn-xs">Explore City</button></a>
+
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 padding col-xs-6">
+            <div class="col-md-3 col-lg-3 padding col-xs-6 mt-3">
                 <div class="card ">
                     <div class="card-img-top ">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/ClareCollegeAndKingsChapel.jpg/1280px-ClareCollegeAndKingsChapel.jpg"
@@ -91,13 +102,14 @@
                                 </h6>
 
                             </p>
-                           <a href="https://en.wikipedia.org/wiki/University_of_Cambridge" target="_blank" > <button class="btn btn-info btn-xs" >More Info</button></a>
-                           <a href="https://en.wikipedia.org/wiki/Cambridge" target="_blank"><button class="btn btn-success btn-xs">Explore City</button></a>
+                            <a href="univ-camb.html"> <button class="btn btn-info btn-xs">More Info</button></a>
+                            <a href="https://en.wikipedia.org/wiki/Cambridge" target="_blank"><button
+                                    class="btn btn-success btn-xs">Explore City</button></a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 padding col-xs-6">
+            <div class="col-md-3 col-lg-3 padding col-xs-6 mt-3">
                 <div class="card ">
                     <div class="card-img-top ">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/MIT_Media_Lab.jpg/330px-MIT_Media_Lab.jpg"
@@ -112,12 +124,14 @@
                             One of the Ivy League colleges in the US, most sought after for technical degrees and
                             diplomas.
                         </p>
-                        <a href="https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology" target="_blank"> <button class="btn btn-info btn-xs">Find More</button></a>
-                        <a href="https://en.wikipedia.org/wiki/Cambridge,_Massachusetts" target="_blank"><button class="btn btn-success btn-xs">Explore City</button></a>
+                        <a href="univ-mit.html" >
+                            <button class="btn btn-info btn-xs">More info</button></a>
+                        <a href="https://en.wikipedia.org/wiki/Cambridge,_Massachusetts" target="_blank"><button
+                                class="btn btn-success btn-xs">Explore City</button></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 padding col-xs-6">
+            <div class="col-md-3 col-lg-3 padding col-xs-6 mt-3">
                 <div class="card ">
                     <div class="card-img-top ">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Reggio_emilia_foro_boario_uni.jpg/180px-Reggio_emilia_foro_boario_uni.jpg"
@@ -125,9 +139,14 @@
                         </img>
                     </div>
                     <div class="card-body padding">
-                        <p>
+                        
                             <h4>University of Modena </h4>
+                            <p>
+                                    The University of Modena and Reggio Emilia located in Modena and Reggio Emilia, Emilia-Romagna, Italy, is one of the oldest and most prestigious universities in Italy, founded in 1175, with a population of 20,000 students.
                         </p>
+                        <a href="univ-modena.html"> <button class="btn btn-info btn-xs">More Info</button></a>
+                        <a href="https://en.wikipedia.org/wiki/Cambridge" target="_blank"><button
+                                class="btn btn-success btn-xs">Explore City</button></a>
                     </div>
                 </div>
             </div>
