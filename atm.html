@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="row text-center">
-            <div class="col md-3 p-2 m-2">
+            <div class="col md-12 p-2 m-2">
                 <input id="cardNo" maxlength="10" size="10">
                 <h6>Card No (eg. 12345)</h6></input>
                 <button id="swiptBtn" type="button" class="btn btn-lg btn-info">Swipe Card</button>
@@ -44,7 +44,15 @@
                 <button id="btn3" type="button" class="btn btn-lg btn-info">Menu 1</button>
             </div>
         </div>
+
+        <div class="row text-center">
+                <div class="col md-12 p-2 m-2">
+                    <textarea id="opt" maxlength="100" size="70" cols="70" rows="10">
+                    </textarea>
+                    
+                </div>
     </div>
+
 
 
 <script>
@@ -55,29 +63,22 @@ var bankMsg = {
     menuItems:[
         {lbl1:"bal"},
         {lbl2:"stmt"},
-        {lbl3:"draw"}
-    ],
+        {lbl3:"draw"},
+        {lbl4:null}
+    ]
 
-    dataZn:{
-        entry-5:3000,
-        entry-4:-100,
-        entry-3:-200,
-        entry-2:100,
-
-
-    }
+    
 }
-
-
-
-
-
-
 
 
 </script>
 
-
+<!-- dataZn:{
+    entry-5:3000,
+    entry-4:-100,
+    entry-3:-200,
+    entry-2:100
+} -->
 
 
 
